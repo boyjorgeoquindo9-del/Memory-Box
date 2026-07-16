@@ -1,0 +1,327 @@
+@font-face {
+    src: url(/Fonts/Chewy/Chewy-Regular.ttf);
+    font-family: Chewy-Regular;
+}
+body {
+    background-color: beige;
+}
+ul.click {
+    background-color: #F8D7DA;
+    border: 3px solid #B08968;
+    border-radius: 30px;
+    width: 413px;
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+ul.click li {
+    font-family: Chewy-Regular, cursive, Arial;
+}
+ul.click li a {
+    text-decoration: none;
+    color: #B08968;
+    font-size: 20px;
+    display: block;
+    padding: 10px 30px;
+    text-align: center;
+}
+ul.click li a:hover {
+    background-color: beige;
+}
+ul.click li a:active {
+    background-color: #B08968;
+}
+h1#title1{
+    font-family: Chewy-Regular, cursive, Arial;
+    font-size: 60px;
+    text-align: center;
+    color: #D58A94;
+    text-shadow: 3px 3px #B08968;
+}
+.album{
+    position: relative;
+    left: 13px;
+    background-color: #f1c5cb;
+    border-radius: 20px;
+    border: 3px solid #B08968;
+    width: 1475px;
+    height: 600px;
+}
+.album #left{
+    position: sticky;
+    width: 60px;
+    height: 60px;
+    background-color: #D58A94;
+    border-radius: 30px;
+    border: 3px solid #B08968;
+    top: 240px;
+    left: 10px;
+    z-index: 1;
+}
+.album #left a{
+    position: relative;
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    font-family: Chewy-Regular, cursive, Arial;
+    color:bisque;
+    bottom: 3px;
+    font-size: 35px;
+}
+.album #right{
+    position: sticky;
+    width: 60px;
+    height: 60px;
+    background-color: #D58A94;
+    border-radius: 30px;
+    border: 3px solid #B08968;
+    left: 1405px;
+    top: 240px;
+    z-index: 1;
+}
+.album #right a{
+    position: relative;
+    text-decoration: none;
+    display: block;
+    width: 40px;
+    font-family: Chewy-Regular, cursive, Arial;
+    color:bisque;
+    bottom: 3px;
+    font-size: 35px;
+}
+.container {
+    position: relative;
+}
+.container #papertear3{
+    position: absolute;
+    bottom: 10px;
+    left: 1260px;
+    opacity: 90%;
+}
+.container #papertear4{
+    position: absolute;
+    bottom: 50px;
+    left: -7px;
+    opacity: 90%;
+}
+.container #halfdisk{
+    position: absolute;
+    z-index: 1;
+    left: -13px;
+    bottom: 100px;
+    opacity: 90%;
+}
+.container #flower2{
+    position: absolute;
+    top: 30px;
+    left: -13px;
+    z-index: 1;
+    opacity: 90%;
+}
+.container #flower3{
+    position: absolute;
+    bottom: 60px;
+    left: 130px;
+    opacity: 90%;
+    
+}
+.container #hearts{
+    position: absolute;
+    bottom: 30px;
+    left: 350px;
+    opacity: 90%;
+}
+.container #cat{
+    position: absolute;
+    top: 0px;
+    right: -10px;
+    z-index: 1;
+    opacity: 90%;
+}
+.container #star{
+    position: absolute;
+    left: 1325px;
+    bottom: 50px;
+    z-index: 1;
+    opacity: 90%;
+}
+.container #ribbon{
+    position: absolute;
+    left: 1035px;
+    bottom: 0px;
+    z-index: 1;
+    opacity: 90%;
+}
+.album{
+    overflow: scroll;
+}
+.glow{
+    transition: all 0.3s ease-in-out;
+}
+.glow:hover{
+    box-shadow: 10px 10px 20px 5px rgba(225, 96, 218, 0.8);
+}
+.album #heart{
+    position: absolute;
+    left: 120px;
+    top: 40px;
+    z-index: 2;
+}
+.album #img19{
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    height: 165px;
+}
+.album #border19{
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    pointer-events: none;
+    z-index: 1;
+}
+.album #img20{
+    position: absolute;
+    left: 620px;
+    top: 70px;
+    height: 165px;
+}
+.album #border20{
+    position: absolute;
+    left: 620px;
+    top: 70px;
+    pointer-events: none;
+    z-index: 1;
+}
+.album #img21{
+    position: absolute;
+    left: 1090px;
+    top: 70px;
+    height: 165px;
+}
+.album #border21{
+    position: absolute;
+    left: 1090px;
+    top: 70px;
+    pointer-events: none;
+    z-index: 1;
+}
+.album #img22{
+    position: absolute;
+    left: 150px;
+    top: 290px;
+    height: 165px;
+}
+.album #border22{
+    position: absolute;
+    left: 150px;
+    top: 290px;
+    pointer-events: none;
+    z-index: 1;
+}
+.album #img23{
+    position: absolute;
+    left: 620px;
+    top: 290px;
+    height: 165px;
+}
+.album #border23{
+    position: absolute;
+    left: 620px;
+    top: 290px;
+    pointer-events: none;
+    z-index: 1;
+}
+.album #img24{
+    position: absolute;
+    left: 1090px;
+    top: 290px;
+    height: 165px;
+}
+.album #border24{
+    position: absolute;
+    left: 1090px;
+    top: 290px;
+    pointer-events: none;
+    z-index: 1;
+}
+.album #img25{
+    position: absolute;
+    left: 150px;
+    top: 510px;
+    height: 165px;
+}
+.album #border25{
+    position: absolute;
+    left: 150px;
+    top: 510px;
+    pointer-events: none;
+    z-index: 1;
+}
+.album #img26{
+    position: absolute;
+    left: 620px;
+    top: 510px;
+    height: 165px;
+}
+.album #border26{
+    position: absolute;
+    left: 620px;
+    top: 510px;
+    pointer-events: none;
+    z-index: 1;
+}
+.album #img27{
+    position: absolute;
+    left: 1090px;
+    top: 510px;
+    height: 165px;
+}
+.album #border27{
+    position: absolute;
+    left: 1090px;
+    top: 510px;
+    pointer-events: none;
+    z-index: 1;
+}
+.album #img28{
+    position: absolute;
+    left: 150px;
+    top: 730px;
+    height: 165px;
+}
+.album #border28{
+    position: absolute;
+    left: 150px;
+    top: 730px;
+    pointer-events: none;
+    z-index: 1;
+}
+.album #img29{
+    position: absolute;
+    left: 620px;
+    top: 730px;
+    height: 165px;
+}
+.album #border29{
+    position: absolute;
+    left: 620px;
+    top: 730px;
+    pointer-events: none;
+    z-index: 1;
+}
+.album #img30{
+    position: absolute;
+    left: 1090px;
+    top: 730px;
+    height: 165px;
+}
+.album #border30{
+    position: absolute;
+    left: 1090px;
+    top: 730px;
+    pointer-events: none;
+    z-index: 1;
+}

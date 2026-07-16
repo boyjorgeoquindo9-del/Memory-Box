@@ -1,0 +1,237 @@
+@font-face {
+    src: url(/Chewy-Regular.ttf);
+    font-family: Chewy-Regular;
+}
+body {
+    background-color: beige;
+}
+ul.click {
+    background-color: #F8D7DA;
+    border: 3px solid #B08968;
+    border-radius: 30px;
+    width: 413px;
+    list-style-type: none;
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+}
+ul.click li {
+    font-family: Chewy-Regular, cursive, Arial;
+}
+ul.click li a {
+    text-decoration: none;
+    color: #B08968;
+    font-size: 20px;
+    display: block;
+    padding: 10px 30px;
+    text-align: center;
+}
+ul.click li a:hover {
+    background-color: beige;
+}
+ul.click li a:active {
+    background-color: #B08968;
+}
+h1#title1{
+    font-family: Chewy-Regular, cursive, Arial;
+    font-size: 60px;
+    text-align: center;
+    color: #D58A94;
+    text-shadow: 3px 3px #B08968;
+    margin-top: 125px;
+}
+div.dropdown{
+    display: inline-block;
+    position: relative;
+    left: 680px;
+    bottom: 15px;
+}
+div.dropdown #button{
+    font-family: Chewy-Regular, cursive, Arial;
+    padding: 10px 48px;
+    color: #d58a94;
+    border-radius: 10px;
+    background-color: pink;
+    border: 1px solid #B08968
+}
+div.dropdown .content{
+    background-color: pink;
+    box-shadow: 3px 4px 5px #B08968;
+    border-radius: 10px;
+    color: #d58a94;
+    display: none;
+    position: absolute;
+    padding: 10px 12px;
+}
+div.dropdown .content a{
+    font-family: Chewy-Regular, cursive, Arial;
+    display: block;
+    text-decoration: none;
+    color: #d58a94;
+    padding: 10px 40px;
+}
+div.dropdown:hover .content {
+    display: block;
+}
+a:hover {
+    background-color: #efc7a7;
+}
+.container{
+    position: relative;
+}
+.container #image1{
+    position: absolute;
+    width: 150px;
+    left: 795px;
+    bottom: 150px;
+}
+.container #image1:hover{
+    position: absolute;
+    width: 160px;
+}
+.container #papertear1{
+    position: absolute;
+    bottom: 190px;
+    right: 1250px;
+}
+.container #papertear1:hover {
+    position: absolute;
+    width: 290px;
+    height: 210px;
+}
+.container #batch{
+    position: absolute;
+    top: 250px;
+    right: 40px;
+}
+.container #batch:hover {
+    position: absolute;
+    width: 183px;
+    height: 87px;
+}
+.container #papertear2{
+    position: absolute;
+    left: 1180px;
+    top: 0px;
+}
+.container #papertear2:hover {
+    position: absolute;
+    width: 330px;
+    height: 385px;
+}
+.container #bus{
+    position: absolute;
+    right: 240px;
+    bottom: -100px;
+    z-index: -1;
+}
+.container #bus:hover {
+    position: absolute;
+    width: 370px;
+    height: 190px;
+}
+.container #smile{
+    position: absolute;
+    right: 430px;
+    bottom: 50px;
+}
+.container #smile:hover {
+    position: absolute;
+    width: 147px;
+    height: 147px;
+}
+.container #strawberry{
+    position: absolute;
+    right: 240px;
+    bottom: 35px;
+}
+.container #strawberry:hover {
+    position: absolute;
+    width: 217px;
+    height: 217px;
+}
+.container #plane{
+    position: absolute;
+    right: 20px;
+    bottom: 250px;
+}
+.container #plane:hover {
+    position: absolute;
+    width: 206px;
+    height: 122px;
+}
+.container #flower1{
+    position: absolute;
+    right: 150px;
+    bottom: -50px;
+    z-index: 1;
+}
+.container #flower1:hover {
+    position: absolute;
+    width: 160px;
+    height: 158px;
+}
+.container #camera{
+    position: absolute;
+    left: 330px;
+    bottom: -70px;
+    z-index: 1;
+}
+.container #camera:hover {
+    position: absolute;
+    width: 279px;
+    height: 229px;
+}
+.container #sun{
+    position: absolute;
+    left: 480px;
+    bottom: 115px;
+    z-index: 1;
+}
+.container #sun:hover {
+    position: absolute;
+    width: 163px;
+    height: 160px;
+}
+.container #button{
+    position: absolute;
+    left: 380px;
+    bottom: 160px;
+}
+.container #button:hover {
+    position: absolute;
+    width: 87px;
+    height: 79px;
+}
+.container #thread{
+    position: absolute;
+    left: 110px;
+    bottom: 170px;
+}
+.container #thread:hover {
+    position: absolute;
+    width: 315px;
+    height: 313px;
+}
+.container #butterfly{
+    position: absolute;
+    left: 160px;
+    bottom: 20px;
+}
+.container #butterfly:hover {
+    position: absolute;
+    width: 210px;
+    height: 240px;
+}
+.container #swan{
+    position: absolute;
+    left: 140px;
+    bottom: -150px;
+    z-index: 1;
+}
+.container #swan:hover {
+    position: absolute;
+    width: 258px;
+    height: 254px;
+}
